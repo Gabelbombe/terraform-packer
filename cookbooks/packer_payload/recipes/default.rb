@@ -6,12 +6,12 @@ ruby_runtime '2.1' do
   action :install
 end
 
-ruby_gem "#{SRC_PATH}/vancluever_hello-#{APP_VERSION}.gem" do
+ruby_gem "#{SRC_PATH}/ehime_hello-#{APP_VERSION}.gem" do
   action :install
 end
 
-poise_service 'vancluever_hello' do
-  command '/opt/ruby_build/builds/2.1/bin/vancluever_hello'
+poise_service 'ehime_hello' do
+  command '/opt/ruby_build/builds/2.1/bin/ehime_hello'
   user node['packer_payload']['app_user']
   directory node['packer_payload']['app_path']
 end
