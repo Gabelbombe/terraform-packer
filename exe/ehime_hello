@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'ehime_hello'
+
+EhimeHello::Server.run_server
