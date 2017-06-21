@@ -4,7 +4,7 @@ require 'ehime_hello/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'ehime_hello'
-  spec.version = ehimeHello::VERSION
+  spec.version = EhimeHello::VERSION
   spec.authors = ['Chris Marchesi']
   spec.email = %w(chrism@ehimetech.com)
   spec.description = 'A hello world app for Sinatra, used to demonstrate a Packer/Terraform pattern'
